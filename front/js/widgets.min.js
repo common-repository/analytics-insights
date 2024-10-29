@@ -1,0 +1,1 @@
+jQuery(window).on("resize",function(){if(typeof aiwp_drawFrontWidgetChart=="function"&&typeof aiwpFrontWidgetData!=="undefined"&&!(!isNaN(parseFloat(aiwpFrontWidgetData))&&isFinite(aiwpFrontWidgetData))){aiwp_drawFrontWidgetChart(aiwpFrontWidgetData)}});

@@ -1,0 +1,310 @@
+/**
+ * Author: Alin Marcu 
+ * Author URI: https://deconf.com
+ * Copyright 2013 Alin Marcu 
+ * License: GPLv2 or later
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
+ */
+
+/* Real-Time content */
+.aiwp-pline {
+	width: 100%;
+    margin: 7px 0;
+    padding: 7px 0 7px 0;
+    background: #fff;
+    -moz-box-shadow: 0px 0px 3px 0px #BBB;
+    -webkit-box-shadow: 0px 0px 3px 0px #bbb;
+    box-shadow: 0px 0px 3px 0px #bbb;
+    display: table;
+    overflow: hidden;
+    -moz-border-radius: 0px 7px;
+    -webkit-border-radius: 0px 7px;
+    border-radius: 0px 7px;
+    border: 1px #7CAEFF solid;
+}
+
+.aiwp-pleft {
+	width: 90%;
+	float: left;
+	padding-left: 5px;
+}
+
+.aiwp-pleft a{
+	text-decoration:none;
+}	
+
+.aiwp-pright {
+	width: 5%;
+	float: right;
+	padding-right: 5px;
+}
+
+[id^=aiwp-realtime-] {
+	margin: 0 0;
+	width: 100%;
+}
+
+.aiwp-rt-box {
+	width: 100%;
+	margin: 0 0;
+	background: #fff;
+	text-align: center;
+	display: table;
+}
+
+.aiwp-tdo-left {
+	width: 60%;
+	padding: 26px 0;
+	float: left;
+	text-align: center;
+	color: #f77149;
+}
+
+.aiwp-tdo-left-ga4 {
+	width: 56%;
+	padding: 0px 0;
+	float: left;
+	text-align: center;
+	color: #f77149;
+}
+
+.aiwp-tdo-right {
+	width: 35%;
+	margin: 0px 10px 0px 0;
+	text-align: left;
+	font-weight: normal;
+	vertical-align: middle;
+	float: right;
+	display: table;
+}
+
+.aiwp-tdo-right-ga4 {
+	width: 40%;
+	margin: 14px 10px 0px 0;
+	text-align: left;
+	font-weight: normal;
+	vertical-align: middle;
+	float: right;
+	display: table;
+}
+
+.aiwp-online {
+	font-size: 120px;
+	font-weight: normal;
+	line-height: 1em;
+	padding: 20px;
+	margin: 0 auto;
+	width: 80%;
+	-moz-border-radius: 100px 100px;
+	-webkit-border-radius: 100px 100px;
+	border-radius: 100px 100px;		
+	display: table;
+}
+
+.aiwp-online-ga4 {
+	font-size: 120px;
+	font-weight: normal;
+	line-height: 1em;
+	padding: 20px;
+	margin: 0 auto;
+	width: 80%;
+	-moz-border-radius: 100px 100px;
+	-webkit-border-radius: 100px 100px;
+	border-radius: 100px 100px;		
+	display: table;
+}
+
+.aiwp-bigtext {
+	font-size: 14px;
+	width: 100%;
+	margin: 6px 0;
+	padding: 5px 5px 5px 5px;
+	background: #fff;
+	-moz-box-shadow: 0px 0px 3px 0px #BBB;
+	-webkit-box-shadow: 0px 0px 3px 0px #BBB;
+	box-shadow: 0px 0px 3px 0px #BBB;
+	display: table;
+	overflow: hidden;
+	-moz-border-radius: 0px 7px;
+	-webkit-border-radius: 0px 7px;
+	border-radius: 0px 7px;	
+	border: 1px #7CAEFF solid;
+}
+
+.aiwp-bigtext-ga4 {
+	font-size: 18px;
+	height: 30px;
+	width: 100%;
+	margin: 6px 0;
+	padding: 5px 5px 5px 5px;
+	background: #fff;
+	display: table;
+	overflow: hidden;
+	-moz-border-radius: 0px 7px;
+	-webkit-border-radius: 0px 7px;
+	border-radius: 0px 7px;	
+	border: none;
+}
+
+.aiwp-bleft {
+	float: left;
+	width: 80%;
+}
+
+.aiwp-bleft-ga4 {
+	float: left;
+	width: 80%;
+	color: #0a4b78;
+}
+
+.aiwp-rt-title {
+	float: center;
+	width: 56%;
+	padding-top: 5px;
+}
+
+[id^=aiwp-realtime-] .dashicons, .dashicons-before:before{
+	font-size: 24px;
+	height: 24px;
+	width: 24px;
+}
+
+.aiwp-bleft a {
+	text-decoration: none;
+}
+
+.aiwp-bright {
+	float: right;
+	width: 20%;
+}
+
+.aiwp-bright-ga4 {
+	float: right;
+	width: 20%;
+	color:#f77149;
+}
+
+.aiwp-pgdetailsr {
+	padding-left: 20px;
+	text-align: right;
+}
+
+.aiwp-pgdetailsl {
+	min-width: 250px;
+}
+
+[id^=aiwp-areachart-] {
+	width: 98%;
+	height: 100%;
+	margin: 10px auto 10px 0;
+	height: 250px;
+}
+
+.aiwp-floatwraper {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+
+[id^=aiwp-geochart-], [id^=aiwp-orgchart-] {
+	display:inline-block;
+	width: 100%;
+}
+
+[id^=aiwp-piechart-].halfsize {
+	width: 47%;
+	margin: 10px 0 0 0;
+	height: 200px;
+	float: left;
+}
+
+[id^=aiwp-piechart-].floatleft {
+	float: left;
+}
+
+[id^=aiwp-piechart-].floatright {
+	float: right;
+}
+
+[id^=aiwp-tablechart-] {
+	width: 98%;
+	height: 100%;
+	margin: 2px auto 10px 0;
+}
+
+[id^=aiwp-orgchart-] {
+	margin: 10px auto 10px 0;
+}
+
+#dashboard-widgets-wrap .postbox {
+	margin-right: 10px;
+}
+
+/* Admin Widget content */
+[id^=aiwp-progressbar-] {
+	width: 100%;
+	height: 3px;
+	margin: 5px 0 0px 0;
+}
+
+[id^=aiwp-bottomstats-] {
+	width: 100%;
+}
+
+[id^=aiwp-bottomstats-] .inside {
+	display: table;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+#aiwp-widget .inside .small-box {
+	width: 30%;
+	float: left;
+	margin: 0 5px 10px 5px;
+	background: #fff;
+	text-align: center;
+	-moz-box-shadow: 0px 0px 7px 0px #BBB;
+	-webkit-box-shadow: 0px 0px 7px 0px #BBB;
+	box-shadow: 0px 0px 7px 0px #BBB;
+}
+
+#aiwp-widget .inside .small-box h3 {
+	font-size: 1em;
+	color: #777;
+	padding: 0px 5px 0px 5px;
+	margin: 0px 0px 0px 0px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+#aiwp-widget .inside .small-box p {
+	font-size: 1.2em;
+	margin: 0px 0px 2px 0px;
+}
+
+.aiwp-dashboard-control input {
+	vertical-align: bottom;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	height: 28px;
+}
+
+.aiwp-dashboard-control input {
+	height: 20px;
+	content: "Search ...";
+}
+
+.aiwp-dashboard-control input::placeholder {
+	/* modern browser */
+	color: #999;
+}
+
+@media screen and (max-width: 410px) {
+	[id^=aiwp-bottomstats-] .inside .small-box {
+		width: 45%;
+	}
+}

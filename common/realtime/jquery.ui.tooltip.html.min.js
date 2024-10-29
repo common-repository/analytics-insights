@@ -1,0 +1,1 @@
+jQuery(function(){jQuery("#aiwp-widget *").tooltip({items:"[data-aiwp]",content:function(){return jQuery(this).attr("data-aiwp")}})});
